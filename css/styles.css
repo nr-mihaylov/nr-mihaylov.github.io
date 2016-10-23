@@ -1,0 +1,76 @@
+.logo {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	color: #FFFFFF;
+	font: 900 2rem 'Lato';
+}
+
+	.fold {
+		width: 100%;
+		height: 100vh;
+		background: url(../img/background.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+		.fold__overlay {
+			position: relative;
+			width: 100%;
+			height: 100vh;
+			background-color: rgba(0,0,0, .65);
+		}
+
+		.fold__content {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+	main {
+		width: 100%;
+		color: #FFFFFF;
+		font: 300 1.25rem 'Lato';
+		text-align: center;
+	}
+
+	main header {
+		display: inline-block;
+		margin-bottom: 70px;
+	}
+
+	main header h1 {
+		padding-bottom: 5px;
+		font-size: 5rem;
+		letter-spacing: 3px;
+		text-align: center;
+		border-bottom: 2px solid #FFFFFF;
+	}
+
+	main header p {
+		margin-top: 10px;
+		font-size: 1.75rem;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+	main > p {
+		display: block;
+		max-width: 700px;
+		margin: 20px auto;
+		font: italic 300 1.75rem 'Lato';
+	}
+
+	main a {
+		display: inline-block;
+		margin-top: 30px;
+		padding: 20px 50px;
+		color: #FFFFFF;
+		background-color: #5271ff;
+		font-size: 1.75rem;
+		font-weight: 900;
+		text-decoration: none;
+	}
