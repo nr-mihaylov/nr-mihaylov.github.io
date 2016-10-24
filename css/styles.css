@@ -14,7 +14,6 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		overflow: hidden;
 	}
 
 		.fold__overlay {
@@ -22,11 +21,11 @@
 			width: 100%;
 			min-height: 100%;
 			background-color: rgba(0,0,0, .65);
-			overflow: auto;
 		}
 
 		.fold__content {
 			padding: 60px 30px;
+			overflow: auto;
 		}
 
 	main {
